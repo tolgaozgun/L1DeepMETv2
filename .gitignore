@@ -2,3 +2,17 @@ DeepMETv2/
 *.pyc
 __pycache__/
 teacher-model/
+
+git-creds.md
+
+# Data processing outputs
+data_ttbar/processed/
+data_ttbar/new/
+
+# Checkpoint and training outputs
+ckpts_*/
+distillation/outputs/
+distillation/logs/
+
+# Test scripts
+test_response.py
